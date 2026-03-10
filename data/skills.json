@@ -1,32 +1,65 @@
 [
     {
         "image": "skill-html-css.webp",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+        "alt": "Compétence HTML et CSS",
+        "title": "HTML / CSS",
+        "categorie": "Technique",
+        "text": "Intégration d’interfaces web responsives et accessibles, structuration sémantique du HTML et mise en forme avec CSS."
     },
     {
         "image": "skill-js.webp",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "alt": "Compétence JavaScript",
+        "title": "JavaScript",
+        "categorie": "Technique",
+        "text": "Manipulation du DOM, gestion des événements et création de fonctionnalités dynamiques pour des applications web."
     },
     {
         "image": "skill-react.webp",
+        "alt": "Compétence React",
         "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "categorie": "Technique",
+        "text": "Création de composants React et gestion de l'état pour développer des interfaces utilisateur modernes."
+    },
+    {
+        "image": "skill-git.webp",
+        "alt": "Compétence Git et GitHub",
+        "title": "Git / GitHub",
+        "categorie": "Technique",
+        "text": "Gestion de version avec Git, suivi des modifications et collaboration sur des projets via GitHub."
     },
     {
         "image": "skill-gestion-de-projet.webp",
+        "alt": "Compétence Gestion de projet",
         "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+        "categorie": "Transverse IT",
+        "text": "Analyse des besoins, coordination entre équipes techniques et métiers et suivi des différentes étapes d’un projet."
+    },
+    {
+        "image": "skill-itil.webp",
+        "alt": "Compétence ITIL",
+        "title": "ITIL",
+        "categorie": "Transverse IT",
+        "text": "Connaissance des bonnes pratiques ITIL pour la gestion des services informatiques et l’amélioration continue."
     },
     {
         "image": "skill-optimisation-et-debug.webp",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "alt": "Compétence analyse d'anomalies",
+        "title": "Debug & analyse d’anomalies",
+        "categorie": "Qualité",
+        "text": "Identification, reproduction et analyse des anomalies à l’aide des outils développeur et de l’inspection du code."
     },
     {
-        "image": "skill-test.webp",
-        "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "image": "skill-cypress.webp",
+        "alt": "Compétence test logiciel",
+        "title": "Tests logiciels",
+        "categorie": "Qualité",
+        "text": "Réalisation de tests exploratoires, fonctionnels et automatisés (Cypress), rédaction de cas de test et validation d’applications web."
+    },
+    {
+        "image": "skill-postman.webp",
+        "alt": "Compétence tests API",
+        "title": "Tests API",
+        "categorie": "Qualité",
+        "text": "Tests d’API avec Postman, validation des réponses, vérification des endpoints et analyse des requêtes HTTP."
     }
 ]

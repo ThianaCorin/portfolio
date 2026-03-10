@@ -1,38 +1,44 @@
 [
     {
         "image": "projet-booki.webp",
+        "alt": "Projet Booki",
         "title": "Booki",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "link": "https://github.com/ThianaCorin/Booki.git"
     },
     {
         "image": "projet-sophiebluel.webp",
+        "alt": "Projet Sophie Bluel",
         "title": "Sophie Bluel",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "https://github.com/ThianaCorin/Sophie_Bluel/tree/dev-front-end"
     },
     {
         "image": "projet-kasa.webp",
+        "alt": "Projet Kasa",
         "title": "Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "https://github.com/ThianaCorin/kasa-frontend"
     },
     {
         "image": "projet-printit.webp",
+        "alt": "Projet Print It",
         "title": "Print It",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "https://github.com/ThianaCorin/Print-It"
     },
     {
         "image": "projet-ecoblissbath.webp",
+        "alt": "Projet Eco Bliss Bath",
         "title": "Eco Bliss Bath",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "link": "https://github.com/ThianaCorin/Eco-Bliss-Bath-Tests"
     },
     {
         "image": "projet-menumaker.webp",
+        "alt": "Projet Menu Maker",
         "title": "Menu Maker",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "https://github.com/ThianaCorin/Eco-Bliss-Bath-Tests"
+        "link": "https://github.com/ThianaCorin/MenuMaker.git"
     }
 ]
