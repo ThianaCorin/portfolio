@@ -1,44 +1,86 @@
 [
     {
-        "image": "projet-booki.webp",
-        "alt": "Projet Booki",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "https://github.com/ThianaCorin/Booki.git"
-    },
-    {
         "image": "projet-sophiebluel.webp",
         "alt": "Projet Sophie Bluel",
         "title": "Sophie Bluel",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "API",
+            "Authentification",
+            "Modal"
+        ],
+        "text": "Transformation d'un site statique en application dynamique avec JavaScript : galerie filtrable, interface administrateur avec authentification, gestion des projets via API et manipulation du DOM.",
         "link": "https://github.com/ThianaCorin/Sophie_Bluel/tree/dev-front-end"
     },
     {
         "image": "projet-kasa.webp",
         "alt": "Projet Kasa",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "tags": [
+            "React",
+            "JavaScript",
+            "React Router",
+            "Vitest",
+            "Animations"
+        ],
+        "text": "Développement d'une application de location immobilière en React avec navigation via React Router, composants dynamiques et tests automatisés.",
         "link": "https://github.com/ThianaCorin/kasa-frontend"
-    },
-    {
-        "image": "projet-printit.webp",
-        "alt": "Projet Print It",
-        "title": "Print It",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "https://github.com/ThianaCorin/Print-It"
     },
     {
         "image": "projet-ecoblissbath.webp",
         "alt": "Projet Eco Bliss Bath",
         "title": "Eco Bliss Bath",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "tags": [
+            "Cypress",
+            "Tests automatisés",
+            "Tests E2E",
+            "Tests API",
+            "JavaScript",
+            "QA"
+        ],
+        "text": "Automatisation de tests fonctionnels, API et de sécurité (XSS) sur un site e-commerce écoresponsable avec Cypress. Rédaction de scénarios E2E et smoke tests en JavaScript, production de rapports de validation qualité.",
         "link": "https://github.com/ThianaCorin/Eco-Bliss-Bath-Tests"
+    },
+    {
+        "image": "projet-booki.webp",
+        "alt": "Projet Booki",
+        "title": "Booki",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Flexbox",
+            "Grid",
+            "Figma",
+            "Responsive"
+        ],
+        "text": "Intégration d'un site de réservation d'hébergements à partir de maquettes Figma, avec création d'une interface responsive en HTML et CSS et mise en place des layouts (Flexbox / Grid).",
+        "link": "https://github.com/ThianaCorin/Booki.git"
+    },
+    {
+        "image": "projet-printit.webp",
+        "alt": "Projet Print It",
+        "title": "Print It",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "Carrousel"
+        ],
+        "text": "Dynamisation d'un site statique avec création d'un carrousel en JavaScript natif, manipulation du DOM et gestion des interactions utilisateur.",
+        "link": "https://github.com/ThianaCorin/Print-It"
     },
     {
         "image": "projet-menumaker.webp",
         "alt": "Projet Menu Maker",
         "title": "Menu Maker",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "tags": [
+            "Agile",
+            "Scrum",
+            "Kanban",
+            "User Stories",
+            "Gestion de projet"
+        ],
+        "text": "Cadrage agile d'un projet d'application web : rédaction des spécifications, structuration du backlog et organisation du suivi avec un Kanban.",
         "link": "https://github.com/ThianaCorin/MenuMaker.git"
     }
 ]
