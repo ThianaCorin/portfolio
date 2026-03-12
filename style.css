@@ -151,18 +151,15 @@ i {
 
 /* couleurs des badges par catégorie */
 .badge-technique {
-    background-color: #E07A5F;
-    color: white;
+    background-color: #C4573A;
 }
 
 .badge-transverse {
-    background-color: #81A4CD;
-    color: white;
+    background-color: #4A7FA8;
 }
 
 .badge-qualite {
-    background-color: #9C6B77;
-    color: white;
+    background-color: #7A4A57;
 }
 
 /* portfolio */
@@ -193,7 +190,7 @@ i {
 }
 
 .portfolio-tag {
-    background-color: #E07A5F;
+    background-color: #C4573A;
     color: white;
     font-size: 0.75rem;
     padding: 3px 10px;
@@ -224,7 +221,7 @@ i {
 }
 
 .contactColumn i {
-    color: #E07A5F;
+    color: #C4573A;
 }
 
 /* footer */
@@ -232,5 +229,5 @@ footer {
     text-align: center;
     padding: 1.5rem;
     font-size: 0.85rem;
-    color: #E07A5F;
+    color: #C4573A;
 }
