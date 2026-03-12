@@ -23,7 +23,7 @@ function handleNavbarCollapse() {
     });
 }
 
-// Function to dynamically create HTML elements from the JSON file
+// Skills - Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
     const container = document.querySelector("#skills .container");
     let row = document.createElement("div");
@@ -37,16 +37,21 @@ function createSkillsFromJSON() {
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
+
+                const categorie = item.categorie.toLowerCase()
+                    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                    .replace(/\s+/g, "-");
+
                 card.innerHTML = `
                     <div class="card skillsText">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <span class="badge badge-${categorie} mb-2 align-self-start">${item.categorie}</span>
                             <img src="./assets/images/${item.image}" alt="${item.alt}">
                             <h3 class="card-title mt-3">${item.title}</h3>
-                            <span class="badge bg-primary mt-2">${item.categorie}</span>
-                            <p class="card-text mt-3">${item.text}</p>
+                            <p class="card-text mt-2">${item.text}</p>
                         </div>
                     </div>
-                `;
+`;
 
                 // Append the card to the current row
                 row.appendChild(card);
@@ -60,7 +65,7 @@ function createSkillsFromJSON() {
             });
         });
 }
-// Function to dynamically create HTML elements from the JSON file
+// Portfolio - Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
     const container = document.querySelector("#portfolio .container");
     let row = document.createElement("div");
@@ -74,19 +79,22 @@ function createPortfolioFromJSON() {
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
+                const tags = item.tags.map(tag =>
+                    `<span class="portfolio-tag">${tag}</span>`
+                ).join("");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="./assets/images/${item.image}" style="width:100%" alt="${item.alt}">
-                    <div class="card-body">
-                        <h3 class="card-title">${item.title}</h3>
-                        <p class="card-text">${item.text}</p>
-                        <span class="badge bg-primary mt-2">${item.tags}</span>
-                        <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Consulter</a>
+                        <img class="card-img-top" src="./assets/images/${item.image}" alt="${item.alt}">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title">${item.title}</h3>
+                                <div class="portfolio-tags">${tags}</div>
+                                <p class="card-text">${item.text}</p>
+                                <div class="text-center mt-auto">
+                                    <a href="${item.link}" target="_blank" class="btn btn-portfolio">Consulter</a>
+                                </div>
                         </div>
                     </div>
-                </div>
-                `;
+`;
 
                 // Append the card to the current row
                 row.appendChild(card);

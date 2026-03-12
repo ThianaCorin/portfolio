@@ -13,6 +13,14 @@
 #portfolio h2,
 #contact h2 {
     margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about p,
+#skills p,
+#portfolio p,
+#contact p {
+    font-family: 'Manrope', sans-serif;
 }
 
 #contact {
@@ -75,16 +83,42 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
 }
 
 /* about */
+#about .col-lg-8 {
+    max-width: 720px;
+}
+
+#about {
+    background: rgba(129, 164, 205, 0.08);
+    border-radius: 40px;
+    padding: 60px 40px;
+}
+
+.col-lg-8 p,
+i {
+    line-height: 1.8;
+    font-size: 1.05rem;
+    color: #4A3728;
+}
+
+.col-lg-8 p.motivation {
+    color: #E07A5F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin-top: 25px;
+    padding-left: 18px;
+    border-left: 4px solid #E07A5F;
+}
+
 .imageAboutPage {
-    width: 260px;
-    height: 260px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 28px;
-    border: 6px solid #E07A5F;
+    border-radius: 30px;
+    border: 4px solid #E07A5F;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
     transition: transform 0.4s ease;
 }
@@ -95,41 +129,91 @@
 
 /* skills */
 .skillsText.card {
-    height: 350px;
+    height: 320px;
     cursor: pointer;
 }
 
 .skillsText img {
     width: 100%;
-    height: 150px;
+    height: 80px;
     object-fit: contain;
-}
-
-#skills p {
-    text-align: center;
-}
-
-.skillsIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
+    margin-top: 0.5rem;
 }
 
 .card-title {
     text-align: center;
 }
 
-.card:hover .skillsIcon {
-    color: #008000;
+.skillsText:hover {
+    border: 1px solid #E07A5F;
+    box-shadow: 0 4px 16px rgba(224, 122, 95, 0.2);
 }
 
-.skillsText:hover {
-    border: 1px solid #008000;
+/* couleurs des badges par catégorie */
+.badge-technique {
+    background-color: #E07A5F;
+    color: white;
+}
+
+.badge-transverse {
+    background-color: #81A4CD;
+    color: white;
+}
+
+.badge-qualite {
+    background-color: #9C6B77;
+    color: white;
 }
 
 /* portfolio */
-#portfolio p {
-    text-align: center;
+.portfolioContent {
+    cursor: pointer;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolioContent.card {
+    height: 500px;
+}
+
+.portfolioContent:hover {
+    border: 1px solid #E07A5F;
+    box-shadow: 0 4px 16px rgba(224, 122, 95, 0.2);
+}
+
+.portfolioContent img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.portfolio-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0.75rem 0;
+}
+
+.portfolio-tag {
+    background-color: #E07A5F;
+    color: white;
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-portfolio {
+    border: 1.5px solid #E07A5F;
+    color: #E07A5F;
+    background: transparent;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-portfolio:hover {
+    background-color: #E07A5F;
+    color: white;
 }
 
 /* contact */
@@ -140,7 +224,7 @@
 }
 
 .contactColumn i {
-    color: #198754;
+    color: #E07A5F;
 }
 
 /* footer */
@@ -148,5 +232,5 @@ footer {
     text-align: center;
     padding: 1.5rem;
     font-size: 0.85rem;
-    color: #888;
+    color: #E07A5F;
 }

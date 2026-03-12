@@ -31,14 +31,14 @@
         "image": "skill-gestion-de-projet.webp",
         "alt": "Compétence Gestion de projet",
         "title": "Gestion de projet",
-        "categorie": "Transverse IT",
+        "categorie": "Transverse",
         "text": "Analyse des besoins, coordination entre équipes techniques et métiers et suivi des différentes étapes d’un projet."
     },
     {
         "image": "skill-itil.webp",
         "alt": "Compétence ITIL",
         "title": "ITIL",
-        "categorie": "Transverse IT",
+        "categorie": "Transverse",
         "text": "Connaissance des bonnes pratiques ITIL pour la gestion des services informatiques et l’amélioration continue."
     },
     {
