@@ -43,6 +43,21 @@
         "link": "https://github.com/ThianaCorin/Eco-Bliss-Bath-Tests"
     },
     {
+        "image": "projet-tomsen.webp",
+        "alt": "Projet Tomsen",
+        "title": "Tomsen by PayForge",
+        "tags": [
+            "Stratégie de test",
+            "Cahier de recette",
+            "Agile",
+            "Scrum",
+            "QA",
+            "Non-régression"
+        ],
+        "text": "Définition d’une stratégie de test pour une application de gestion financière : analyse des exigences, rédaction du cahier de recette et planification des tests Agile afin de garantir la qualité avant mise en production.",
+        "link": "https://github.com/ThianaCorin/Tomsen"
+    },
+    {
         "image": "projet-booki.webp",
         "alt": "Projet Booki",
         "title": "Booki",
@@ -56,18 +71,6 @@
         ],
         "text": "Intégration d'un site de réservation d'hébergements à partir de maquettes Figma, avec création d'une interface responsive en HTML et CSS et mise en place des layouts (Flexbox / Grid).",
         "link": "https://github.com/ThianaCorin/Booki.git"
-    },
-    {
-        "image": "projet-printit.webp",
-        "alt": "Projet Print It",
-        "title": "Print It",
-        "tags": [
-            "JavaScript",
-            "DOM",
-            "Carrousel"
-        ],
-        "text": "Dynamisation d'un site statique avec création d'un carrousel en JavaScript natif, manipulation du DOM et gestion des interactions utilisateur.",
-        "link": "https://github.com/ThianaCorin/Print-It"
     },
     {
         "image": "projet-menumaker.webp",
